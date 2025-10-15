@@ -20,3 +20,4 @@ Heal Buddy is a simple and interactive web application that allows users to inpu
 - **AI Integration:** OpenAI API
 
 ## Demo video
+https://drive.google.com/file/d/1fiMSocfoKdzlr0o-CuZkIOt4IK6iu0au/view?usp=sharing
