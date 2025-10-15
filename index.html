@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>HealBuddy – Symptom Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Page 1: Input -->
+  <div id="inputPage" class="page">
+    <div class="container">
+      <h2>💖 HealBuddy – Symptom Checker</h2>
+      <form id="symptomForm">
+        <textarea id="symptoms" placeholder="Describe your symptoms..."></textarea>
+        <button type="submit">Check</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Page 2: Result -->
+  <div id="resultPage" class="page" style="display:none;">
+    <div class="container">
+      <h3>🩺 Possible Conditions & Advice</h3>
+      <div id="resultText" class="resultText">Analyzing...</div>
+      <div class="buttons">
+        <button id="closeBtn">Close</button>
+        <button id="checkAnotherBtn">Check Another</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
